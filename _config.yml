@@ -1,1 +1,3 @@
 baseurl: /mygit
+paginate_path: "mygit/page:num"
+paginate: 2
