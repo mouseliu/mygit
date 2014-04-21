@@ -1,3 +1,2 @@
 baseurl: /mygit
-paginate_path: "mygit/page:num"
 per_page: 2
