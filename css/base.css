@@ -22,6 +22,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 .break { word-break: break-all; word-wrap: break-word; }
 header, footer, article, section, nav, menu, hgroup { display: block; clear: all; }
 .clearfix:after { clear: both; content: ""; display: block; height: 0; }
-body { background: #d83971; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; }
+body { background: #fff; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; }
 a {color: #666;}
 a:hover { color:#53df00;}

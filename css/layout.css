@@ -3,13 +3,17 @@ header {
 	height: 50px;
 	line-height: 50px;
 	padding: 0 20px;
+	font-size: 20px;
 }
 .me {
 	line-height: 30px;
 	text-align: left;
 }
-
-
+.content {
+	padding: 20px;
+}
+.post_list {font-size: 14px;}
+footer {text-align: center;}
 
 
 
