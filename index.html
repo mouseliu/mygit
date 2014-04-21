@@ -11,16 +11,12 @@ title: 小耗子
 	</div>
 	<div class="post_list">
 		<h3>最新文章</h3>
-		{% for post in paginator.posts %}
-	  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	  <p class="author">
-	    <span class="date">{{ post.date }}</span>
-	  </p>
-	  <div class="content">
-	    {{ post.content }}
-	  </div>
-	{% endfor %}
-		<!-- <div id="post-pagination" class="pagination">
+		<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
+		<div id="post-pagination" class="pagination">
 			{% if paginator.previous_page %}
 			<p class="previous">
 				{% if paginator.previous_page == 1 %}
@@ -61,7 +57,7 @@ title: 小耗子
 				<span>Next</span>
 			</p>
 			{% endif %}
-		</div> -->
+		</div>
 	</div>
 
 </div>
