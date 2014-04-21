@@ -13,6 +13,7 @@ header {
 	padding: 20px;
 }
 .post_list {font-size: 14px;}
+.post_list ul {padding-left: 10px;}
 footer {text-align: center;}
 
 
