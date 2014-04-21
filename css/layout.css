@@ -1,3 +1,4 @@
+body {min-height: 400px;}
 header {
 	border-bottom: 1px solid #d3d3d3;
 	height: 50px;
@@ -14,7 +15,10 @@ header {
 }
 .post_list {font-size: 14px;}
 .post_list ul {padding-left: 10px;}
-footer {text-align: center;}
+footer {
+	text-align: center;
+	border-top: 1px solid #d3d3d3;
+}
 
 
 
